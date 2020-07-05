@@ -44,7 +44,7 @@ public class easy_27 {
     private static int removeElement(int[] arr, int a) {
         // 排序
         Arrays.sort(arr);
-        // 二分查找
+        // 查找
         int index = findElement(arr, a);
         int count = 0;
         for (int i = index; i < arr.length; i++) {
